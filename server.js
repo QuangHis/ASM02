@@ -10,7 +10,7 @@ const MongoClient = require('mongodb').MongoClient;
 const ObjectID = require('mongodb').ObjectID;
 
 
-const connectionString = 'mongodb+srv://quanghi:quanghi15   081508@cluster0.nssigvu.mongodb.net/test';
+const connectionString = 'mongodb+srv://quanghi:quanghi15081508@cluster0.nssigvu.mongodb.net/test';
 
 // (0) CONNECT: server -> connect -> MongoDB Atlas 
 MongoClient.connect(connectionString, { useUnifiedTopology: true })
